@@ -101,8 +101,8 @@ nav ul li{
     float: left;
     list-style-type: none;
     background-color: #F0B429;
-    /*border-radius: 5px;
-    box-shadow: 0 0 5px black inset;*/
+    border-radius: 5px;
+    box-shadow: 0 0 5px black inset;
     width: inherit;
     height: 35px;
     font-size: 25px;
