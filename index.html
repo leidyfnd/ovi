@@ -1,94 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+    
+<html lang="es" class"no-js>
 <head>
+    <title>OVI: DISEÑO DE SITIOS WEB</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>OVI ESTRUCTURA HTML</title>
-    <meta name="viemport" content="width=device-width, user-scalable=no, initial-scale=1.0,
-    maximum-scale=1.0, minimum-scale=1.0">
-    <link href="css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="icon" href="img/favicon.ico">
+    <meta name='author' content='GRUPO 301122_18'>
+    <meta name='description' content='Sitio web sobre github, html5 y css3'>
+    <meta name='keywords' content='UNAD, html, css, git, github, web, diseño, sitio, OVI'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_index.css">
+    
 </head>
-<div class="padre">
-    <header class="header margen-interno">
-        <div class="menu">
-        <div class="logo">
-            <img src="img/logo.png" alt="logo unad" >
-            <a href="log_in.html"></a>
-        </div>
-        <nav class="nav">
-            <a href="index.html"><i class="fas fa-house-damage"></i>Inicio</a>
-            <a href="actividades.html"><i class="fas fa-users"></i>Actividades</a>
-            <a href="multimedia.html"><i class="fas fa-bolt"></i>Multimedia</a>
-            <a href="lectura.html"><i class="fas fa-bolt"></i>Lecturas</a>
-            <a href="autores.html"><i class="fas fa-users"></i>Autores</a>
-    </div>
-    <div class="texto-principal">
-        <h1>ESTRUCTURA BASICA DE HTML5</h1>
-    </div>
+<body>
+
+    <script src="js/modernizr.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.2.0.js"></script>
+<div id="contenidos">
+    <header>
+        <h1>OVI DISEÑO DE SITIOS WEB</h1>
+        <h2>GRUPO 301122_18</h2>
     </header>
-<section class="section margen-interno">
-    <div class="articulos">
-        <article class="articule">
-            <img src="img/grupo.png" alt="">
-            <h3>25 de Marzo 2020</h3>
-            <h2> Nuestro Objetivo </h2>
-            <p>Poner a prueba nuestra creatividad y conocimiento es Nuestro Objetivo, aplicada al diseño y desarrollo de este ovi con el fin de cumplir todos los requerimientos propuestos.</p>
-            <p>Este proyecto se hizo posible por la participacion de dos <b>personas  comprometidas</b>  a la realizacion y cumplimiento</p>
-            <a href="autores.html">Leer más...</a>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html" class="menu">INICIO</a></li>
+            <li><a class="menu">LECTURAS</a>
+                <ul>
+                    <li><a href="git.html" class="menu">GIT</a></li>
+                    <li><a href="github.html" class="menu">GITHUB</a></li>
+                    <li><a href="github_pages.html" class="menu">GITHUB PAGES</a></li>
+                    <li><a href="html5.html" class="menu">HTML5</a></li>
+                    <li><a href="css3.html" class="menu">CSS3</a></li>
+                </ul>
+            </li>
+            <li><a class="menu">MULTIMEDIA</a>
+            <ul>
+                    <li><a href="git-github.html" class="menu">GIT/GITHUB</a></li>
+                    <li><a href="html5-css5.html" class="menu">HTML5/CSS3</a></li>
+                </ul>
+            </li>
+            <li><a class="menu">ACTIVIDADES</a>
+            <ul>
+                    <li><a href="crucigrama.html" class="menu">CRUCIGRAMA</a></li>
+                    <li><a href="sopa_letras.html" class="menu">SOPA DE LETRAS</a></li>
+                    <li><a href="relacionar.html" class="menu">RELACIONAR A CON B</a></li>
+                </ul>
+            </li>
+            
+            <li><a class="menu">AUTORES</a>
+                 <ul>
+                    <li><a href="leidy_fandino.html" class="menu">LEIDY FANDIÑO</a></li>
+                    <li><a href="jesus_rojas.html" class="menu">JESUS ROJAS</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <hr/>
+    
+    <section>
+        <h3>INTRODUCCIÓN AL DISEÑO DE SITIOS WEB</h3>
+        <article>
+            <h3>
+                OBJETIVOS
+            </h3>
+            <p>
+                Explicar los conceptos básicos de construcción de sitios web utilizando sistema de control de versiones y los lenguajes de marcado HTML5 y CCS3
+                
+            </p>
+            <p>
+                Definir los sistemas de control de versiones GIT o GITHUB para compartir y publicar archivos en formato HTML5 y CCS3
+            </p>
+            <p>
+                Identificar la estructura y los elementos básicos de HTML5 y CCS3 para el desarrollo de proyectos de sitios web.
+            </p>
+            <p>
+                Determinar metodologías y herramientas para evaluar el diseño de sitios web y proponer planes de mejoramiento para su validación y ajuste.
+            </p>
+          
+
         </article>
-        <article class="articule">
-            <img src="img/hcb.jpg" alt="">
-            <h3>01 de abril 2020</h3>
-            <h2>Actividades recientes</h2>
-            <p>Encuentra las actividades mas recientes, para realizar y estar al dia en lo que debes de practicar para ser un experto en la estructura basica de <b>HTML</b>  </p>
-            <p> Puedes apoyarte con el contenido multimedia para aclarar y completar con exito las actividades. </p>
-            <a href="actividades.html">Leer más...</a>
-        </article>
-        <article class="articule">
-            <img src="img/lecturas.png" alt="">
-            <h3>25 de agosto 2019</h3>
-            <h2>Lecturas</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe reprehenderit ex dolorem iste, perferendis consectetur hic corporis id cum. Debitis fuga reprehenderit vel sapiente quam distinctio neque quaerat nulla? Corporis.</p>
-            <a href="lectura.html">Leer más...</a>
-        </article>
-        <article class="articule">
-            <img src="img/multimedia.jpg" alt="">
-            <h3>5 de abril 2020</h3>
-            <h2>Recursos multimedia</h2>
-            <p>Practica, Repasa y sigue aprendiendo si eres mas visual aca encontraras todo los videos que te ayudaran aprender mas facil.</p>
-            <a href="multimedia.html">Leer más...</a>
-        </article>
-    </div>
-    <aside class="aside">
-        <div class="publicidad">
-            <h4>Siguenos!</h4>
-            <img src="img/twitter.jpg" alt="twitterunad">
-        </div>
-        <div class="publicidad">
-            <h4>Publicidad</h4>
-            <a class="twitter-timeline" data-lang="en" data-width="220" data-height="223" data-dnt="true" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
-            <img src="img/publicidad.jpg" alt=""> 
-        </div>
-        <div class="publicidad">
-        <div id="sfcs463ekt42fz7kr9h7hwpr7fuek55zuk9"></div><script type="text/javascript" 
+
+    <aside>
+            <h3>TEMAS</h3>
+             <div>
+                <h3>
+                -INTRODUCCIÓN A GIT Y GITHUB
+                <br>
+                -HTML5
+				<br>
+				-CCS3
+                </h3>
+             </div>
+    </aside>
+    <a class="twitter-timeline" data-width="275" data-height="420" data-dnt="true" href="https://twitter.com/UniversidadUNAD">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </section>
+
+<footer>
+    <h4>
+    UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA | DISEÑO DE SITIOS WEB GRUPO_301122_18
+    <br>
+    2020 TODOS LOS DERECHOS RESERVADOS
+    </h4>
+    <h5>
+    VISITAS <div id="sfcs463ekt42fz7kr9h7hwpr7fuek55zuk9"></div><script type="text/javascript" 
         src="https://counter1.stat.ovh/private/counter.js?c=s463ekt42fz7kr9h7hwpr7fuek55zuk9&down=async" 
         async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para web"><img src="https://counter1.stat.ovh/private/contadorvisitasgratis.php?c=s463ekt42fz7kr9h7hwpr7fuek55zuk9" border="0" 
             title="contador de visitas para web" alt="contador de visitas para web"></a></noscript>
-        </div>
-    </aside>
-</section>
-<footer>
-    <p> INFORMACION PARA IMPULSAR TU CREATIVIDAD </p>
-    <h6>Diseño y desarrollo by leidy fandiño © abril 2020</h6>
+    </h5>
+
 </footer>
 </div>
-</div>
-<body>
-    
 </body>
 </html>
