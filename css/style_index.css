@@ -20,7 +20,7 @@ h1{
     font-size: 60px;
     text-align: right;
     margin-right: 145px;
-    color: white;
+    color: #F2B80D;
     margin-bottom: 0px;
 }
 
@@ -29,7 +29,7 @@ h2{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 40px;
     text-align: center;
-    color: white;
+    color: #F2B80D;
     margin-top: 15px;
 }
 h3{
@@ -37,7 +37,7 @@ h3{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 30px;
     text-align: center;
-    color: #F0B429;
+    color: white;
 }
 
 h4{
